@@ -22,6 +22,6 @@ projectButton.addEventListener("click", function() {
 })
 
 backButton.addEventListener("click", function() {
-    mainStyle.animation = "fade 1.5s ease-out forwards"
+    mainStyle.animation = "fadeDown 1.5s ease-out forwards"
     projects.style.animation = "fadeOut 2.3s linear forwards"
 })
